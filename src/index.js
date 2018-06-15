@@ -1,9 +1,10 @@
 import $ from 'jquery'
 import '/css/style.css'
+import someImage from '/images/fccimage.jpeg';
 
 let htmlText = `
 <nav>
-<img src="images/fccimage.jpeg">
+<img src=${someImage} />
 <h1><a href="https://github.com/EduLight-Consulting/roadmap/blob/master/roadmap.md">FreeCodeCamp Ibadan JavaScript Workshop!</a></h1>
 </nav>
 <div class="main">
