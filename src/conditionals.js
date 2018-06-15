@@ -36,7 +36,7 @@ switch (value) {
     console.log(statement3)
     break;
   default:
-    console.log(default)
+    console.log('default')
     break;
 }
 

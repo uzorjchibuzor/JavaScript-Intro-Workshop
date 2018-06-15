@@ -22,13 +22,15 @@ class Actor extends Person {
     return super.hello() + ' I am an actor.'
   }
 }
-vartomCruise = new Actor('Tom Cruise')
+var tomCruise = new Actor('Tom Cruise')
 tomCruise.hello()
 
 // constructors
 // super
-constructor(props) {
-  super(props)
+class ClassName {
+  constructor(props) {
+    super(props)
+  }
 }
 // getter
 class Person {
