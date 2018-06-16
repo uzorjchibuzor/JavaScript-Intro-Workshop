@@ -1,5 +1,6 @@
 # JavaScript-Intro-Workshop
-Created with CodeSandbox
+
+Created with [CodeSandbox](https://codesandbox.io)
 
 [Road Map](https://github.com/EduLight-Consulting/roadmap)
 
