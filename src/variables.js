@@ -35,7 +35,7 @@ const does not provide immutability, just makes sure that the reference can’t 
 const has block scope, same as  let .
 */
 
-const name = 'FeeCodeCamp'
+const name = 'FreeCodeCamp'
 name
 // name = 'Workshop'
 
