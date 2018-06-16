@@ -1,11 +1,11 @@
 const myFunction = () => {
-  return 'my First Function'
+	return 'my First Function'
 }
 myFunction()
 
 const doSomething = (name) => {
-  console.log(name)
-  return `Hello New FreeCodeCamper ${name}`
+	console.log(name)
+	return `Hello New FreeCodeCamper ${name}`
 }
 let name = 'Quincy Larson'
 doSomething(name)
@@ -14,8 +14,10 @@ doSomething(name)
 
 // implicit return
 
-const myFunction = () => ({ value: 'test' })
-myFunction() //{value: 'test'}
+const myFunction2 = () => ({
+	value: 'test'
+})
+myFunction2() //{value: 'test'}
 
 
 // explicit return
@@ -23,10 +25,10 @@ myFunction() //{value: 'test'}
 // this in arrow function
 const link = document.querySelector('#link')
 link.addEventListener('click', () => {
-  // this === window
+	// this === window
 })
 
-const link = document.querySelector('#link')
-link.addEventListener('click', function () {
-  // this === link
-}) 
+const link2 = document.querySelector('#link')
+link2.addEventListener('click', function () {
+	// this === link
+})

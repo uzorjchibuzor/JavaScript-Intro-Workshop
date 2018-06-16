@@ -1,6 +1,6 @@
 import $ from 'jquery'
 import '/css/style.css'
-import someImage from '/images/fccimage.jpeg';
+import someImage from '/images/fccimage.jpeg'
 
 let htmlText = `
 <nav>

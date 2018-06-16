@@ -1,6 +1,6 @@
-// Primitive types 
+// Primitive types
 
-/* 
+/*
   Numbers
   Strings, Template strings
   Booleans
@@ -11,6 +11,6 @@
 
 // object types
 
-/* 
+/*
 Functions, Arrays, Objects
 */

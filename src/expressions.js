@@ -1,4 +1,4 @@
-/* 
+/*
 Arithmetic expressions
 String expressions
 Primary expressions
@@ -19,8 +19,8 @@ i * 2
 
 /* 'A ' + 'string'
 'A ' += 'string'
-`A new kind of string called template literal that can contant variable using 
-${variable1} 
+`A new kind of string called template literal that can contant variable using
+${variable1}
 Carry out simple expressions
 ${variable.toUpperCase()} ${10+10}
 and it can take multiline strings
@@ -46,7 +46,7 @@ await //async function pause/resume/wait for completion
     () // grouping */
 
 
-/* 
+/*
 [] //array literal
 {} //object literal
 [1,2,3]
@@ -54,34 +54,34 @@ await //async function pause/resume/wait for completion
 {a: {b: 1}}
 */
 
-/* 
+/*
 a &&b
 a ||b
 !a
 */
 
 
-/* 
+/*
 new //create an instance of a constructor
 super //calls the parent constructor
 ...obj //expression using the spread operator
 */
 
 
-/* 
+/*
 object.property //reference a property (or method) of an object
 object[property]
 object['property']
 */
 
-/* 
+/*
 new object()
 new a(1)
 new MyRectangle('name', 2, {a: 4})
 */
 
 
-/* 
+/*
 function() {}
 function(a,b) { returna *b }
 (a,b) =>a *b
@@ -89,7 +89,7 @@ a =>a * 2
 () => { return 2 }
 */
 
-/* 
+/*
 a.x(2)
 window.resize()
 */

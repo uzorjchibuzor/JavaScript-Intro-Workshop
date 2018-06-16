@@ -1,11 +1,14 @@
 let array = []
+array
 // Never use array like this - new Array()
 function randomNumber(limit) {
-  return Math.floor(Math.random() * limit) + 1;
+	return Math.floor(Math.random() * limit) + 1
 }
 Array(6).fill(9)
 Array.from('string')
-const newArray = Array.from({ length: 50 }, () => randomNumber(10))
+const newArray = Array.from({
+	length: 50
+}, () => randomNumber(10))
 console.log(newArray)
 
 // Get the length of an array
@@ -25,8 +28,10 @@ console.log(newArray)
 // [].concat(['s'])
 
 // reduce
+;
 [1, 2, 3, 4].reduce((accumulator, currentValue, currentIndex, array) => {
-  return accumulator * currentValue
+	console.log(array)
+	return accumulator * currentValue
 }, 1)
 // iteration 1: 1 * 1 => return 1
 // iteration 2: 1 * 2 => return 2
@@ -36,7 +41,7 @@ console.log(newArray)
 
 // sort
 newArray.sort((a, b) => {
-  return b - a
+	return b - a
 })
 
 // slice(start)
@@ -44,7 +49,7 @@ newArray.sort((a, b) => {
 
 // Spread and rest operators
 
-// Array destructuring 
+// Array destructuring
 
 // Adding to an array
 // add to the end
@@ -56,17 +61,21 @@ newArray.sort((a, b) => {
 
 // Join multiples arrays
 
-// Lookup the array for a specific element 
+// Lookup the array for a specific element
 // ES5, ES6, ES7
-a.indexOf()
-a.lastIndexOf()
-a.find((element, index, array) => {
-  //return true or false
+newArray.indexOf()
+newArray.lastIndexOf()
+newArray.find((element, index, array) => {
+	//return true or false
+	console.log(array)
 })
-a.findIndex((element, index, array) => {
-  //return true or false
+newArray.findIndex((element, index, array) => {
+	console.log(array)
+	//return true or false
 })
-a.includes(value)
-a.includes(value, i)
+let i = 3
+let value = [2, 6]
+newArray.includes(value)
+newArray.includes(value, i)
 
 // Get a portion of an array

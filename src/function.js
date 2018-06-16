@@ -1,7 +1,7 @@
-function functionName(parameters) {
-  return 'a new function crreated'
+/* function functionName(parameters) {
+	return 'a new function crreated'
 }
-functionName(arguments)
+functionName(arguments) */
 
 // Syntax
 // Named function and anonymous functions
@@ -9,53 +9,54 @@ functionName(arguments)
 
 // Nested functions
 function function1() {
-  let first = 'First Function'
-  return function () {
-    return `${first} was called inside the secong function`
-  }
+	let first = 'First Function'
+	return function () {
+		return `${first} was called inside the secong function`
+	}
 }
-
+function1()()
 // Closure -Closed local varialble are availa
 function add(a) {
-  return function (b) {
-    return a + b
-  }
+	return function (b) {
+		return a + b
+	}
 }
+add(5)(8)
 // A function that return a function
 
 // Arrow Functions
 const myFunction = () => {
-  return 'my First Function'
+	return 'my First Function'
 }
 myFunction()
 
-// this in  functions 
+// this in  functions
 // Constructor FUnctions
 let fccIbadan = {
-  name: 'FreeCodeCamp Ibadan',
-  meetings: 'monthly',
-  greeting: function() {
-    return `${this.name} welcomes you all to her ${this.meetings} meetup`
-  },
-  version2: () => {
-  return `${this.name} welcomes you all to her ${this.meetings} meetup`
-  }
+	name: 'FreeCodeCamp Ibadan',
+	meetings: 'monthly',
+	greeting: function() {
+		return `${this.name} welcomes you all to her ${this.meetings} meetup`
+	},
+	version2: () => {
+		return `${this.name} welcomes you all to her ${this.meetings} meetup`
+	}
 }
-
+fccIbadan
 // Function Hoisting
 
 // IIFE
-
+;
 (()=> {
-  return 'I am IIFE'
+	return 'I am IIFE'
 })()
 // Write a function to add 2 numbers. add(a, b)
 // Write a function that add two numbers and it takes the third parameter as another function argument.add(a, b)(c)
 
-// default Parameters 
+// default Parameters
 
 function subtract(a = 10, b = 2) {
-  return a - b
+	return a - b
 }
 
 subtract(50, 7)

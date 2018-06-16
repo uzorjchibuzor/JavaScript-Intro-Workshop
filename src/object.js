@@ -1,7 +1,12 @@
 // Objects
 // create a new object
-let obj = { name: 'Frecodecamp', age: 3, value: 'Non profit', cost: 'free' }
-let PureObj = Object.create(null)
+let obj = {
+	name: 'Freecodecamp',
+	age: 3,
+	value: 'Non profit',
+	cost: 'free'
+}
+let pureObj = Object.create(null);pureObj
 
 console.log(obj)
 console.table(obj)
@@ -13,7 +18,11 @@ console.table(obj)
 
 // desctructiong of objects
 const csvFile = '1993, June, 12, MKO Abiola, mko@money.com, Abeokuta'
-const { 2: Month, 3: day } = csvFile.split(',')
+const {
+	2: Month,
+	3: day
+} = csvFile.split(',')
+console.log(Month, day)
 
 JSON.stringify(obj, null, 4)
 
@@ -40,19 +49,24 @@ Write a function that return an object and destructure the variable in the objec
 
 
 // solution
-
-const removeDuplicate = arr => [... new Set(arr)]
+/*
+const removeDuplicate = arr => [...new Set(arr)]
 const flatted = [].concat(...arr)
+
 function flatten(arr) {
-  const flattened = [].concat(...arr)
-  return flattened.some(item => {
-    Array.isArray(item) ? flatten(flattened) : flattened
-  })
+	const flattened = [].concat(...arr)
+	return flattened.some(item => {
+		Array.isArray(item) ? flatten(flattened) : flattened
+	})
 }
 const returnObj = () => ({
-  a: 1,
-  b: 2,
-  c: 3
+	a: 1,
+	b: 2,
+	c: 3
 })
-const { first, second, third } = returnObj()
-console.log(first, second, third)
+const {
+	first,
+	second,
+	third
+} = returnObj()
+console.log(first, second, third) */

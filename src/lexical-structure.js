@@ -1,4 +1,4 @@
-/* 
+/*
   Unicode
   Semicolons
   White space
@@ -9,7 +9,7 @@
 */
 
 //  Single Line Comments
-/* 
+/*
   Multi line Comments
 */
 
@@ -53,7 +53,7 @@ delete
 in
 try
 class
-enum 
+enum
 extends
 super
 const
